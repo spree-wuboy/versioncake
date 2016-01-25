@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.2'
 
-  s.add_dependency('actionpack',    '>= 3.2')
-  s.add_dependency('activesupport', '>= 3.2')
-  s.add_dependency('railties',      '>= 3.2')
+  s.add_dependency('actionpack')
+  s.add_dependency('activesupport')
+  s.add_dependency('railties')
   s.add_dependency('tzinfo')
 
   s.add_development_dependency 'appraisal'
